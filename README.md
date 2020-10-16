@@ -2,7 +2,7 @@
 
 ### What's in this repository ###
 
-This is the git repository for the SuiteCRM project.This repo is allowed to do customization in **SuiteCRM.
+This is the git repository for the SuiteCRM project.This repo is allowed to do customization in **SuiteCRM.**
 
 ### How to use it 
 
