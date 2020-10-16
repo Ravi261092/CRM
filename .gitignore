@@ -1,0 +1,13 @@
+/.htaccess
+/cache/*
+!/cache/index.html
+/custom/history/
+/custom/modulebuilder/
+/custom/working/
+/custom/modules/*/Ext/
+/custom/application/Ext/
+/silentUpgrade*.php
+/upload/*
+!/upload/index.html
+/upload_backup/
+*.log
