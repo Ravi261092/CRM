@@ -1,80 +1,73 @@
 ## SuiteCRM 7.8.20  LTS
 
-[![Build Status](https://travis-ci.org/salesagility/SuiteCRM.svg?branch=hotfix)](https://travis-ci.org/salesagility/SuiteCRM)
-
-
 ### What's in this repository ###
 
-This is the git repository for the SuiteCRM project, the award-winning, enterprise-class open source CRM.
+This is the git repository for the SuiteCRM project.This repo is allowed to do customization in **SuiteCRM.
 
-This repository has been created to allow community members to collaborate and contribute to the project, helping to develop the SuiteCRM ecosystem.
+### How to use it 
 
-### Contributing to the project ###
+you have to just clone this repo and write your *code.*
 
-#### Security ####
+## Important ##
 
-We take Security seriously here at SuiteCRM so if you have discovered a security risk report it by
-emailing security@suitecrm.com. This will be delivered to the product team who handle security issues.
-Please don't disclose security bugs publicly until they have been handled by the security team.
+There are some files which not usable and not need to track so we just put in .gitignore file like -
 
-Your email will be acknowledged within 24 hours during the business week (Mon - Fri), and you’ll receive a more
-detailed response to your email within 72 hours during the business week (Mon - Fri) indicating the next steps in
-handling your report.
+/.htaccess*
 
-##### Important: Please read before developing code intended for inclusion in the SuiteCRM project. #####
+/cache/*
 
-Please read and sign the following [contributor agreement][cont_agrmt]
+!/cache/index.html
 
-[cont_agrmt]: https://www.clahub.com/agreements/salesagility/SuiteCRM
+/custom/history/
 
-The Contributor Agreement only needs to be signed once for all pull requests and contributions. 
+/custom/modulebuilder/
 
-Once signed and confirmed, any pull requests will be considered for inclusion in the SuiteCRM project.
+/custom/working/
 
+/custom/modules/*/Ext/
 
-### Translations ###
-SuiteCRM in your language: [ Download and install language packs from][suitecrm_languages]
+/custom/application/Ext/
 
-[suitecrm_languages]: https://crowdin.com/project/suitecrmtranslations
+/silentUpgrade*.php
 
+/upload/*
 
-### Code of Conduct ###
+!/upload/index.html
 
-See our [Code of Conduct][code_of_conduct] on our Wiki.
+/upload_backup/
 
-[code_of_conduct]: https://docs.suitecrm.com/community/code-of-conduct/
+*.log
 
+custom/
 
-### Helpful links for the community ###
+custom/history/*
 
-The following links offer various ways to view, contribute and collaborate to the SuiteCRM project:
+custom/blowfish/*
 
+custom/modulebuilder/*
 
-+ [SuiteCRM Demo - A fully working SuiteCRM demo available for people to try before downloading the full SuiteCRM package][suitecrm_demo]
-+ [SuiteCRM Forums - Forums dedicated to discussions about SuiteCRM with various topics and subjects about SuiteCRM][suitecrm_forums]
-+ [SuiteCRM Documentation - A wiki containing relevant documentation to SuiteCRM, constantly being added to][suitecrm_docs]
-+ [SuiteCRM Partners - Our partner section where partners of SuiteCRM can be viewed][suitecrm_partners]
-+ [SuiteCRM Extensions Directory - An extensions directory where community members can submit extensions built for SuiteCRM][suitecrm_ext]
+custom/working/*
 
-[suitecrm_demo]: https://suitecrm.com/demo
-[suitecrm_forums]: https://suitecrm.com/suitecrm/forum/suite-forum
-[suitecrm_docs]: https://docs.suitecrm.com/
-[suitecrm_partners]: https://suitecrm.com/about/about-us/partners
-[suitecrm_ext]: https://store.suitecrm.com/
+custom/modules/*/Ext/
 
-### Development Roadmap ###
+custom/modules/unified_search_modules_display.php
 
-[ View the Community Roadmap here and get involved][suitecrm_roadmap]
+modules/AOD_Index/Index/*
 
-[suitecrm_roadmap]: https://suitecrm.com/community/roadmap
+install/status.json
 
-[More detailed SuiteCRM Community LTS Roadmap][suitecrm_detailed_roadmap]
+bower_components/
 
-[suitecrm_detailed_roadmap]: https://suitecrm.com/lts/
+node_modules/
 
-### Support & Licensing ###
+themes/SuiteP/css/*.map
 
-SuiteCRM is an open source project. As such please do not contact us directly via email or phone for SuiteCRM support. Instead please use our support forum. By using the forum the knowledge is shared with everyone in the community. Our developers answer questions on the forum daily but it also gives the other members of the community the opportunity to contribute. If you would like customisations to specifically fit your SuiteCRM  needs then please use our contact form.
+themes/SuiteP/css/*/*.map
 
-SuiteCRM is published under the AGPLv3 license.
+themes/SuiteP/css/*/color-palette.css
+
+themes/SuiteP/css/*/variables.css
+
+tests/_output/*
+
 
